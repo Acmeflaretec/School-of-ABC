@@ -409,6 +409,11 @@ h6,
         padding-right: 4rem;
     }
 }
+@media (max-width: 576px) {
+    .header-carousel .owl-nav {
+        right: 3%;
+    }
+}
 
 .testimonial-carousel .testimonial-item .border {
     border: 1px dashed rgba(0, 185, 142, .3) !important;
