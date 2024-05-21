@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FE5D37;
+    --primary: #8a2be2;
     --light: #FFF5F3;
     --dark: #103741;
 }
@@ -15,14 +15,14 @@
 .whatsapp{
     position: fixed;
     /* display: none; */
-    right: 45px;
+    right: 34px;
     bottom: 75px;
     z-index: 99;
     padding: 0;
     display: flex;
     
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 
@@ -140,9 +140,8 @@ h6,
 .navbar .dropdown-toggle[aria-expanded=true]::after {
     transform: rotate(-180deg);
 }
-.admition {
-    min-height:560px
-}
+.roundeds1{border-radius:10px 0 0 10px !important}
+.roundeds2{border-radius: 0 10px 10px 0 !important}
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
@@ -226,6 +225,8 @@ h6,
     .admition {
         min-height:330px
     }
+    .roundeds1{border-radius:10px !important}
+    .roundeds2{border-radius:10px !important}
 }
 
 .header-carousel .owl-nav {
